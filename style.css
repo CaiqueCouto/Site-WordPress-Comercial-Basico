@@ -1,0 +1,436 @@
+/*
+Theme Name: A.A.Star Saga ;
+Theme URI:http//sdsdjsf@gmail.com;
+Author:caique couto
+Author URI:http//sdsdjsf@gmail.com
+description: Tema teste wp curso Danki
+Version:1.0
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+
+.w-50{float: left;width: 50%;padding: 0 15px;}
+
+.menu-mobile{display: none;}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.topo{
+    background-image: linear-gradient(100deg, red, blue);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.logo{
+    float: left;
+}
+.menu{
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+
+.menu a:hover{
+    opacity: 1;
+
+}
+
+.clear{clear: both;}
+
+.w-50{
+    color: yellow;
+
+}
+
+.w-50{
+    margin-top: 50px;
+}
+
+.w-50 h2{
+    max-width: 500px;
+    font-size:45px ;
+    
+}
+
+.w-50 p{
+    font-size:14px ;
+    margin-top: 10px;
+    max-width: 240px;
+    
+}
+.w50{
+    max-width: 100%;
+}
+
+
+.w-50 a{
+    display: inline-block;
+    margin-top: 9px;
+    padding: 10px 9px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    border-radius: 10px;
+    background: greenyellow;
+    box-shadow: 0 20px 30px 0 rgba(37,15,138,0.2);
+}
+.w50 img{max-width: 100%;}
+
+
+.circle{
+    position: absolute;
+    left: 50%;
+    margin-top: -20px;
+    transform: translate(-50%,0);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color:white ;
+    box-shadow: 0 10px 25px 0 rgba(37, 15, 139, 0.1);
+}
+.circle i{
+    font-size: 30px;
+    color: red;
+}
+section.clientes-slider{
+    padding: 60px 0;
+
+}
+
+section.clientes-slider img{maw-widht: 100%}
+
+
+.slick-dotted ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+    outline: 0;
+}
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background: #0c3f8a;
+    color: #0c3f8a;
+}
+
+.slick-slide:focus {outline: none;}
+
+section.difere{
+    padding: 30px 0;
+}
+section.difere h2{
+ color:goldenrod;
+    font-size: 30px;
+    font-weight: normal;
+    text-align:center;
+
+}
+
+
+.icons-dif{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.box-sing-dif{
+    width: 33.3%;
+    text-align: center;
+    padding: 0 10px;
+}
+.time img{ max-width: 100%}
+
+.time{
+    
+    float: right;
+
+}
+
+.time img,.desk{
+    display: inline-block;
+}
+
+}
+
+.desk{
+    padding: 0 20px;
+    margin: 40px 40px;
+
+}
+
+.desk h2{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: normal;
+}
+
+.desk p{
+    
+    color: dimgrey;
+    font-size: 15px;
+    max-width: 500px;
+}
+
+section.sobre-time{
+    padding: 40px 0;
+    background-color:lightskyblue;
+}
+
+section.depoimento{
+    padding: 100px 0;
+    background-color: #23188f;
+}
+
+section.depoimento h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.depoimentos-box{
+    color: white;
+    overflow: hidden;
+    margin: 10px auto;
+    max-width: 900px;
+    display: block;
+}
+.deposingi{width: 100%; display: inline-block;}
+
+
+.depoimentos-box p{text-align: center;margin-bottom: 15px;
+
+}
+
+.depoimentos-box img{
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+section.metodologia{
+    position: relative;
+    z-index: 10;
+    top:-80px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background: ghostwhite;
+    border-top:3px solid red;
+    box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+section.metodologia h2{
+    color: steelblue;
+    font-weight: bold;
+    font-size: 24px;
+}
+section.metodologia p{
+    font-size: 15px;
+    color:dimgrey;
+    margin: 15px 0;
+}
+
+section.metodologia a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    background-color: steelblue;
+    border-radius: 0px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 8px;
+}
+footer{
+    padding: 80px 0;
+    background-color:white;
+}
+footer >.center{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-footer{
+    width: 20%;
+}
+.col-footer h2{color:goldenrod;font-size: 16px; font-weight: normal; margin-bottom: 15px; text-transform: uppercase;}
+.col-footer a{color:grey;font-size: 13px;display: block;margin-top: 10px}
+
+section.w-50-4 img{max-width: 100%}
+
+.w-50-3{
+    padding: 20px 0;
+    float:  right;
+
+}
+.w-50-3 h2{
+    padding-left: 50px;
+    font-size: 45px;
+    color:#202020;
+    display: flex;
+    max-width: 500px;
+}
+.w-50-3 p{
+
+    line-height: 30px;
+    font-size: 16px;
+    color:#202020;
+    display: flex;
+    max-width: 500px;
+    padding: 0 50px;
+}
+.w-50-4 img{
+    padding-top: 20px;
+    display:flex;
+    float:right;
+
+
+}
+section.sobre-imagens{
+    padding: 100px 0;
+    background-color:lightgray ;
+}
+
+.sobre-imagens>.center{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+section.sobre-imagens img{max-width: 100%}
+
+.sobre-imagens .img-sobre{padding: 0 30px; width: 25%}
+
+section.Contato{
+    display: inline-block;
+    padding: 30px 0;
+}
+
+
+}
+
+.feni50 h2{
+    max-width: 400px;
+    color:#202020;
+    font-size: 43px;
+    font-weight: normal;
+}
+
+.feni50 p{
+    color:#202020;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.mapa-container{
+    width: 50%;
+    padding-top: 50%;
+    background-color: crimson;
+    position: relative;
+}
+div#mapa{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+
+}
+.y50{
+    padding: 0 30px; 
+    margin-top: 40px;
+    
+}
+.y50 input[type=text]{
+    width: 100%;
+    height: 48px;
+    margin-bottom: 15px;
+    border:solid 1px;
+    padding-left: 8px;
+    font-size: 16px;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(92, 99, 110, 0.1);
+
+
+}
+.y50 input[type=submit]{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px 0 steelblue;
+    background-color: #212a97;
+    color: white;
+}
+
+
+.y50 select{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 15px;
+    border:solid 1px;
+    padding: 8px;
+    font-size: 16px;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(92, 99, 110, 0.1);
+    resize: none;
+}
+.y50 textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    border:solid 1px;
+    padding: 8px;
+    font-size: 16px;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(92, 99, 110, 0.1);
+    resize: none;
+   
+}
+
+
+.box-sing-dif h3{
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: normal;
+    color:crimson;
+
+
+
+
